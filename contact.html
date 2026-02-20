@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Big Bang Theory | Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-wrapper">
+    <header class="site-header">
+      <div class="inner">
+        <h1 class="site-title"><a href="index.html">The Big Bang Theory</a></h1>
+        <nav class="site-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="page-title">Contact</h1>
+      <p class="about-intro">Send a message, share your favorite quote, or just say Bazinga! This is a fan site—no backend; form is for layout only.</p>
+
+      <form class="contact-form" action="#" method="get">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com">
+        </div>
+        <div class="form-group">
+          <label for="favorite">Favorite character</label>
+          <select id="favorite" name="favorite">
+            <option value="">— Choose one —</option>
+            <option value="sheldon">Sheldon Cooper</option>
+            <option value="leonard">Leonard Hofstadter</option>
+            <option value="penny">Penny</option>
+            <option value="howard">Howard Wolowitz</option>
+            <option value="raj">Raj Koothrappali</option>
+            <option value="amy">Amy Farrah Fowler</option>
+            <option value="bernadette">Bernadette</option>
+            <option value="stuart">Stuart Bloom</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Your message, favorite episode, or quote…"></textarea>
+        </div>
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+          <label for="newsletter">Sign me up for the fan newsletter (episode recaps, quotes, and fun facts)</label>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </div>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <p>Fan site for <strong>The Big Bang Theory</strong> (2007–2019). No copyright claim to the show or its characters.</p>
+      <p><a href="contact.html">Get in touch</a></p>
+    </footer>
+  </div>
+</body>
+</html>
